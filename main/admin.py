@@ -1,7 +1,7 @@
 from django.contrib import admin
 from . models import (
     UserProfile,
-    ContactProfile,
+    Contact,
     Quote,
     Media,
     Portfolio,
@@ -15,7 +15,7 @@ from . models import (
 class UserProfileAdmin(admin.ModelAdmin):
 	list_display = ('id', 'user')
 
-@admin.register(ContactProfile)
+@admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
 	list_display = ('id', 'timestamp', 'name',)
 

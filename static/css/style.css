@@ -260,7 +260,7 @@ a, .btn {
 
 /* banner section */
 .bannerSection {
-	padding: 180px 0 80px;
+	padding: 120px 0 80px;
 }
 .bannerUserImg {
   margin-left: 30px;
@@ -486,7 +486,7 @@ body.navToggleActive {
 
 /* portfolio page */
 .innerPageBannerCol {
-	padding: 180px 0 150px;
+	padding: 120px 0 10px;
 }
 .portfolioContentMain {
   position: relative;
@@ -503,9 +503,12 @@ body.navToggleActive {
 .portfolioRow .pColMain:nth-child(2n-1) .pCol {
   margin-top: -110px;
 }
+
+
 @media (min-width:576px) {
   .swiper-pagination {
     display: none;
+    
   }
 }
 @media (min-width:992px) {
@@ -625,6 +628,9 @@ body.navToggleActive {
     -o-transition: all 300ms ease-in-out 0s;
     transition: all 300ms ease-in-out 0s;
   }
+
+
+  
   .navToggleActive .navCollapseCol {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);

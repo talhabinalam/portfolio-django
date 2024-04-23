@@ -34,7 +34,7 @@ class IndexView(generic.TemplateView):
 class ContactView(generic.FormView):
 	template_name = "main/contact.html"
 	form_class = ContactForm
-	success_url = "/"
+	success_url = "/contact/"
 	
 	def form_valid(self, form):
 		form.save()

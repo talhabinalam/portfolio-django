@@ -39,11 +39,9 @@ class UserProfile(models.Model):
 
 
 
-class ContactProfile(models.Model):
+class Contact(models.Model):
     
     class Meta:
-        verbose_name_plural = 'Contact Profiles'
-        verbose_name = 'Contact Profile'
         ordering = ["timestamp"]
     timestamp = models.DateTimeField(auto_now_add=True)
     name = models.CharField(verbose_name="Name",max_length=100)
@@ -96,8 +94,6 @@ class Media(models.Model):
 
 class Portfolio(models.Model):
     class Meta:
-        verbose_name_plural = 'Portfolio Profiles'
-        verbose_name = 'Portfolio'
         ordering = ["name"]
 
     date = models.DateTimeField(blank=True, null=True)
