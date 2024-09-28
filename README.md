@@ -26,4 +26,4 @@ Welcome to my digital space! This portfolio showcases my journey as a backend de
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/talhabinalam/portfolio-django.git
