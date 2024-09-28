@@ -4,7 +4,7 @@
 
 Welcome to my digital space! This portfolio showcases my journey as a backend developer, highlighting the projects, skills, and passion that shape my work. Built with a blend of modern technologies, this platform serves as both a creative showcase and a demonstration of my technical abilities.
 
-### [Live Demo](http://sonet.pythonanywhere.com)
+### [Live Demo](http://mdtalhabinalam.pythonanywhere.com)
 
 ## Technologies Used
 
